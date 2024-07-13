@@ -1,7 +1,7 @@
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
-import { typeDefs } from './graphQL/schema.js';
-import { resolvers } from './graphQL/resolver.js';
+import { typeDefs } from './graphQL/schema.ts';
+import { resolvers } from './graphQL/resolver.ts';
 
 // The ApolloServer constructor requires two parameters: your schema
 // definition and your set of resolvers.
