@@ -1,4 +1,4 @@
-import {users,books} from '../../database/mockdb.ts';
+import {users,books} from '../../database/mockdb';
 
 
 // Resolvers define how to fetch the types defined in your schema.
